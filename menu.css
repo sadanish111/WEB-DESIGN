@@ -1,0 +1,69 @@
+<html>
+<head>
+<style>
+*{
+	margin:0px;
+	padding: 0px;
+}
+#container ul{
+    list-style: none; 
+	background-size: cover;
+	font-size: 20px;
+	position: absolute;
+	right:10%;
+	top:5%;
+	cursor: pointer;
+	color: white;
+}
+#container ul li: hover{
+	font-size: 30px;
+}
+#container ul ul{
+	top: 25px;
+	display: none;
+	line-height: 30px;
+	list-style: none;
+
+
+}
+#container ul li:hover > ul{
+	display: block;
+}
+#gallery ul{
+	color: white;
+}
+
+.search{
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	height: 30px;
+	border-radius: 40px;
+	padding: 10px;
+	text-decoration-color: red;
+}
+.submit{
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	height: 30px;
+	border-radius: 40px;
+	padding: 10px;
+    line-height:10px;
+    background-color: green;
+}
+
+.img{
+	text-align: center;
+    color: white;
+    position: relative;
+}
+
+
+
+</head>
+</html>
